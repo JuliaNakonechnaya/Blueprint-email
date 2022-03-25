@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <title>Blueprint</title>
+    <!--[if (mso)|(mso 16)]><style data-roadie-ignore="" type="text/css">
+    body, table, tr, td, h1, h2, h3, h4, p, a, span{font-family: Helvetica,sans-serif;}.link{color: #000000 !important;}.freetext a{text-decoration:underline !important;}
+    </style><![endif]-->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+     <![endif]-->
+    <style type="text/css">
+
+        @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap);
+
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        body,
+        html {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        h3 a {
+            text-decoration:none!important;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0 !important;
+            mso-table-rspace: 0 !important;
+        }
+
+        th {
+            font-weight: 400
+        }
+
+        table {
+            border-spacing: 0 !important;
+            border-collapse: separate !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        .aBn,
+        .unstyle-auto-detected-links a,
+        a[x-apple-data-detectors] {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        img.g-img {
+            cursor: default !important;
+        }
+
+        img.g-img+div {
+            display: none !important;
+        }
+
+        .freetext ol,
+        .freetext ul {
+            margin: 0
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width:600px) {
+            .container {
+                padding: 0 15px 23px!important;
+            }
+
+            .footer > table > tbody > tr > td {
+                padding-left: 15px!important;
+                padding-right: 15px!important;
+            }
+
+            .titleh3 {
+                padding-left: 0!important;
+                padding-right: 0!important;
+            }
+
+            .shop-item .img-item {
+                width: 40px!important;
+                height: 40px!important;
+            }
+
+            .shop-item .text-item {
+                font-size: 12px!important;
+                line-height: 15px!important;
+            }
+
+            .shop-item .text-item span{
+                margin-bottom: 5px;
+                display: inline-block;
+            }
+
+            .share-link {
+                font-size: 14px!important;
+            }
+
+            .answer-block {
+                padding: 0 6px;
+            }
+
+            .answer-block table tbody tr td {
+                padding: 4px!important;
+            }
+
+            .border-block {
+                padding: 18px 10px!important;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body, center,.content, .subtitle h2, .grey-block {
+                background-color:#2D2D2D!important;
+            }
+
+            .footer {
+                background: none!important;
+            }
+
+            .share, .border-block {
+                border-color: #fff!important;
+            }
+
+            .subtitle {
+                background-image: url(img/line_w.png)!important;
+            }
+
+            .subtitle.subtitlenobg {
+                background: none!important;
+            }
+
+            .footer .custom-underline {
+                border-color: #007FC0!important;
+            }
+
+            .readmore {
+                background: url(img/arrow-right_w.png) no-repeat 100% center!important;
+                padding-right: 25px!important;
+            }
+
+            .readmore img {
+                display: none;
+            }
+
+            .share {
+                background-color: #2D2D2D!important;
+            }
+            .container,.freetext,.freetext a,.question a, a {
+                color:#fff!important;
+            }
+        }
+
+        [data-ogsc] body,[data-ogsc] center,[data-ogsc] .content, [data-ogsc] .subtitle h2, [data-ogsc] .grey-block  {
+            background-color:#2D2D2D!important;
+        }
+
+        [data-ogsc] .footer {
+            background: none!important;
+        }
+
+        [data-ogsc] .share {
+            background-color: #383838!important;
+        }
+        [data-ogsc] .freetext,[data-ogsc] .freetext a {
+            color:#fff!important;
+        }
+    </style>
+</head>
+
+<body width="100%" style="padding: 0 !important; mso-line-height-rule: exactly; background-color:#fff;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; margin: 0 !important;">
+    <center role="article" aria-roledescription="email" lang="en" style="width: 100%; background-color: #fff;">
+        <table class="content" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; color: #333; background-color: #fff; margin: 0 !important;" bgcolor="#fff">
+            <tbody>
+                <tr>
+                    <td>
+                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" max-height="35" style="font-size:16px;color:#727070;font-family: Helvetica,sans-serif;padding:0;max-width:600px;width:100%!important;text-align:center;">
+                            <tbody>
+                                <tr>
+                                    <td style="padding:20px 30px 22px;">Friday, October 2, 2022</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;max-width:600px;width:100%!important;">
+                            <tr style="text-align:left;">
+                                <td>
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td style="padding:6px 28px 16px;text-align:center; border-bottom: 2px solid #FF9900;">
+                                                <a href="#">
+                                                    <img src="img/logo.png" style="margin: 0 auto; border: 0; padding: 0; display: block;width:100%;max-width:262px;" width="262" alt="Blueprint" class="g-img">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="23">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="container" style="padding: 0px 23px 23px">
+                                                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="width:100%!important;">
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center;" height="30px">
+                                                            <h2 style="display: inline; font-size: 16px; vertical-align: middle; font-weight: bold; font-family:Georgia, 'Times New Roman', Times, serif; margin-bottom: 15px"><span>Together with</span>&nbsp;<img src="img/IBM_logo.png" style="vertical-align: middle; margin-left: 24px" alt="IBM" class="g-img" height="23px">
+                                                            </h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 22px;">
+                                                            <p style="margin-bottom: 23px;">When I was four, an earthquake forced my family to sleep in our backyard. It was a clear summer night, and the whole city was engulfed in darkness. I remember lying on the ground and thinking that I would never see something more beautiful than the billions of stars above.</p>
+                                                            <p style="margin-bottom: 23px;">The James Webb Space Telescope knows what I’m talking about: The new space observatory has captured its first images, which means its golden eyes are finally wide open. And the photos don’t even begin to convey the power Webb will yield once it’s fully operational.</p>
+                                                            <p style="margin-bottom: 23px;">This is just the beginning, but before we peer into Webb’s cosmic gaze, we have the perfect video showing how reusable bamboo straws are made. It’ll ground you before the rush of another week kicks in.</p>
+                                                            <p style="margin-bottom: 23px;">Good morning. I’m Derya, an editor here at IE.</p>
+                                                            <p style="margin-bottom: 23px;"><strong>This is The Blueprint. Stay with us.</strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td background="img/line.png" style="text-align: center; background-repeat: repeat-x; background-position: 0 center; padding: 10px 0 15px;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/play.png" style="vertical-align: middle;" alt="Play" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">VIDEO OF THE DAY</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="text-align: center; padding: 5px 0 18px;">
+                                                            <h3 style="font-family: 'Roboto', sans-serif; margin: 0; line-height: 25px; font-size: 20px;">Google's Alphabet will offer a 20-for-1 stock split</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img src="img/img_01.jpg" style="max-width: 100%;" alt="Google" class="g-img"></a>
+                                                            <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px; margin: 15px 0 5px;">Each share will be valued at $137 instead of $2,750.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/bookmark.png" style="vertical-align: middle;" alt="Must Read" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">MUST READ</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="text-align: center; padding: 5px 40px 18px;" class="titleh3">
+                                                            <h3 style="font-family: 'Roboto', sans-serif; margin: 0; font-size: 20px; line-height: 25px;">Boeing's New 777-8 Freighter: The World's Largest Twin-Engine Freightliner</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img src="img/img_02.jpg" style="max-width: 100%;" alt="News" class="g-img"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 13px 0 8px;">
+                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><p style="font-family: 'Roboto', sans-serif; font-weight: bold; margin: 0 0 23px; font-style: italic; font-size: 11px;">The photo credit line may appear like this</p></td>
+                                                                        <td style="text-align:right;width:85px;">
+                                                                            <p class="source" style="font-family: Helvetica,Arial,sans-serif;font-size:10px;margin:0;color:#7E7E7E;margin: 0 0 23px;font-style: italic;">© GettyImages
+                                                                            </p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 22px;" class="freetext">
+                                                            <p style="margin: 0 0 23px;">Boeing introduced its new 777-8 Freighter as part of a new deal for up to 50 aircraft with Qatar Airways, a press statement reveals.</p>
+
+                                                            <p style="margin: 0 0 23px;">The 777-8 Freighter is the latest variant of the aviation giant's <a href="#" style="text-decoration: none; color:#333; border-bottom: 1px solid #007FC0;" class="custom-underline">777X family</a>, and it was designed after <a href="#" style="text-decoration: none; color:#333; border-bottom: 1px solid #007FC0;" class="custom-underline">Qatar Airways</a> made a request in 2019 for a new 777X freighter to replace the 777F.</p>
+
+                                                            <p style="margin: 0 0 23px;">The new aircraft will be the world's largest, longest-range twin-engine freightliner, according to Boeing. "With payload capacity nearly identical to the 747-400 Freighter and a 25 percent improvement in fuel efficiency, emissions and operating costs, the 777-8 Freighter will enable a more sustainable and profitable business for operators," the company said in its statement.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0 0 20px;">
+                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                    <tr valign="middle">
+                                                                        <td>
+                                                                            <a href="#" style="padding: 8px 16px; text-decoration: none; color: #000; border: solid 1px #A3A3A3;border-radius: 16px; font-weight: bold; font-size: 10px; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;" class="readmore">READ MORE <img src="img/arrow-right.png" style="cursor: pointer;" alt="Arrow" class="g-img"></a>
+                                                                        </td>
+                                                                        <td style="text-align:right;width:50%;">
+                                                                            <a style="text-decoration: none;" href="#"><img src="img/facebook_g.png" alt="Facebook" style="display:inline-block;vertical-align: middle;" class="g-img"></a>&nbsp;
+                                                                            <a style="text-decoration: none;" href="#"><img src="img/twitter_g.png" alt="Twitter" style="display:inline-block;vertical-align: middle;" class="g-img"></a>&nbsp;
+                                                                            <a style="text-decoration: none;" href="#"><img src="img/linkedin_g.png" alt="Linkedin" style="display:inline-block;vertical-align: middle;" class="g-img"></a>&nbsp;
+                                                                            <a style="text-decoration: none;" href="#"><img src="img/email_g.png" alt="Linkedin" style="display:inline-block;vertical-align: middle;" class="g-img"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/science.png" style="vertical-align: middle;" alt="SCIENCE" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">SCIENCE</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 18px;">
+                                                            <h3 style="font-family: 'Roboto', sans-serif; margin: 0; font-size: 20px; line-height: 25px;">An asteroid chasing Earth? A new Trojan asteroid was just confirmed</h3>
+                                                            <p style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 24px; margin-bottom: 20px;">An asteroid is hurtling in our direction, though thankfully the small space rock won't actually collide with Earth.An asteroid is hurtling in our direction, though thankfully the small space rock won't actually collide with Earth.</p>
+                                                            <div>
+                                                                <a href="#" style="padding: 8px 16px; text-decoration: none; color: #000; border: solid 1px #A3A3A3; border-radius: 16px; font-weight: bold; font-size: 10px; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;" class="readmore">READ MORE <img src="img/arrow-right.png" style="cursor: pointer;" alt="Arrow" class="g-img"></a>
+                                                            </div>
+                                                            <h3 style=" padding-top: 20px;text-align: center; font-family: 'Roboto', sans-serif; font-size: 20px; line-height: 25px;">And The Other Stories in Science</h3>
+
+                                                            <div class="freetext">
+                                                                <ul style="padding: 0;">
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;
+                                                                    line-height: 25px; margin-bottom: 10px; padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;"><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">An Electric Motorcycle Maker</a> Just Added 22 Miles With a Simple</li>
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;
+                                                                    line-height: 25px; margin-bottom: 10px;  padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;"><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">A Personal Flying Vehicle Prototype</a> Can Fly You at 160 MPH</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/transport.png" style="vertical-align: middle;" alt="TRANSPORTATION" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">TRANSPORTATION</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 5px 0 18px;">
+                                                            <h3 style="font-family: 'Roboto', sans-serif; margin: 0; font-size: 20px; line-height: 25px;">An asteroid chasing Earth? A new Trojan asteroid was just confirmed</h3>
+                                                            <p style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 24px; margin-bottom: 20px;">An asteroid is hurtling in our direction, though thankfully the small space rock won't actually collide with Earth.An asteroid is hurtling in our direction, though thankfully the small space rock won't actually collide with Earth.</p>
+                                                            <div>
+                                                                <a href="#" style="padding: 8px 16px; text-decoration: none; color: #000; border: solid 1px #A3A3A3; border-radius: 16px; font-weight: bold; font-size: 10px; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;" class="readmore">READ MORE <img src="img/arrow-right.png" style="cursor: pointer;" alt="Arrow" class="g-img"></a>
+                                                            </div>
+                                                            <h3 style=" padding-top: 20px;text-align: center; font-family: 'Roboto', sans-serif; font-size: 20px; line-height: 25px;">And The Other Stories in Transportation</h3>
+                                                            <div class="freetext">
+                                                                <ul style="padding: 0;">
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;
+                                                                    line-height: 25px; margin-bottom: 10px; padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;"><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">An Electric Motorcycle Maker</a> Just Added 22 Miles With a Simple</li>
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18px;
+                                                                    line-height: 25px; margin-bottom: 10px;  padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;"><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">A Personal Flying Vehicle Prototype</a> Can Fly You at 160 MPH</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0; background: #F2F2F2;" class="grey-block">
+                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                    <tr valign="middle">
+                                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #F2F2F2; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/partnership.png" style="vertical-align: middle;" alt="SPONSORSHIP" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">SPONSORSHIP</span></h2>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding: 0 17px;">
+                                                                            <h3 style="font-family: 'Roboto', sans-serif; margin: 0; font-size: 20px; line-height: 25px;">The Future IBM We Will Probably Never See</h3>
+                                                                            <p style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 24px; margin-bottom: 20px;">Let’s get one thing straight right off the bat. If someone has been named president of International Business Machines Corporation, it means they are the heir apparent and future chief executive officer of what used to be the world’s largest IT supplier. Which is why the announcement of the departure of Jim Whitehurst from IBM on the Friday before the Independence Day holiday in America started was such a surprise.</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/quote.png" style="vertical-align: middle;" alt="QUOTE OF THE DAY" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">QUOTE OF THE DAY</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; line-height: 24px;">
+                                                        <p style=" margin: 0 0 10px;">The common question that gets asked in business is, why? That's a good question, but an equally valid question is, why not? </p>
+                                                        <p style="margin-bottom: 10px; font-weight: bold;">Jeff Bezos in Wired, on November 13, 2011</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/planet.png" style="vertical-align: middle;" alt="ADD ANOTHER THING" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">ADD ANOTHER THING</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <div class="freetext">
+                                                                <ul style="padding: 0;">
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;
+                                                                    line-height: 25px; margin-bottom: 10px; padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;">Tesla Finally Delivers Its <a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">"Full Self-Driving" Beta 9.0</a></li>
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;
+                                                                    line-height: 25px; margin-bottom: 10px;  padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;"><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">When You're Hacked</a> or Under Attack, Here's the Help You Can Expect</li>
+                                                                    <li style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 16px;
+                                                                    line-height: 25px; margin-bottom: 10px;  padding: 0 0 0 21px; list-style: none; background: url(img/list_bg.png) no-repeat 0 center;">A Physicist Has Solved How <a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Black Holes</a> Reflect the Universe</li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/calendar.png" style="vertical-align: middle;" alt="TODAY IN HISTORY" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">TODAY IN HISTORY</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-size: 16px; margin-top: 0px; font-family: Georgia, 'Times New Roman', Times, serif; line-height: 22px;">Today 1891, the name neuron was coined for the first time in print. <strong>Have you heard of neuromorphic computing?</strong><br>
+                                                            Here's how brain-inspired  technology powers the next generation of AI.</p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/gift.png" style="vertical-align: middle;" alt="SHARE TO WIN" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">SHARE TO WIN</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding: 0 0 18px;" class="freetext">
+                                                            <p style="font-family: Georgia, 'Times New Roman', Times, serif; line-height: 24px; margin: 5px 0 25px;">Share The Blueprint!<br>
+                                                                Give your friends deeper insights into engineering and tech, and win exclusive <span style="color: #007FC0;">IE</span> swag for free. <a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Referral program terms and conditions.</a></p>
+                                                            <div>
+                                                                <a href="#" style="padding: 8px 16px; text-decoration: none; color: #000; border: solid 1px #A3A3A3; border-radius: 16px; font-weight: bold; font-size: 10px; letter-spacing: 1px; font-family: 'Open Sans', sans-serif;" class="readmore">READ DETAILS <img src="img/arrow-right.png" style="cursor: pointer;" alt="Arrow" class="g-img"></a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#"><img src="img/img_03.png" alt="Charging Bracelet" style="max-width: 100%;" class="g-img"></a>
+                                                            <h2 style="font-family: Helvetica, Arial, sans-serif;font-weight: 700; color:#007FC0;font-size: 20px; font-style: italic; line-height: 18px; margin-bottom: 5px;">Copy & Share Your Link</h2>
+                                                            <table align="center" role="presentation" cellspacing="0" cellpadding="0" width="100%" class="share" style="width:100%!important;border:1px solid #bfdfed;border-radius:10px;"><tbody><tr><td style="padding:13px 15px;"><a href="https://interestingengineering.com/newsletter/?_r=f8TOdG" class="share-link" style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 16px;color:#333333;text-decoration:none; display: inline-block; line-height: 18px;">https://interestingengineering.com/daily/r?kid=5a5751c</a></td></tr></tbody></table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr valign="middle" class="freetext">
+                                                        <td style="text-align: center; padding: 15px 0; background: url(img/line.png) repeat-x 0 center;" height="30px;" class="subtitle">
+                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; background: #fff; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/heart.png" style="vertical-align: middle;" alt="THINGS WE LOVE" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">THINGS WE LOVE</span></h2>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="padding-bottom: 20px;">
+                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                    <tr valign="middle">
+                                                                        <td width="50%" style="padding-bottom: 15px;">
+                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr valign="middle" class="shop-item">
+                                                                                        <td width="90px" height="90px" class="img-item" valign="middle" style="border: 1px solid #007FC0; text-align: center;">
+                                                                                            <a href="#"><img src="img/img_04.jpg" style="max-width: 100%; vertical-align: middle;" alt="image" class="g-img" ></a>
+                                                                                        </td>
+                                                                                        <td style="padding: 0 3px 0 12px; line-height: 26px; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif;" class="text-item">
+                                                                                            <span><a href="#" style="text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Razer Viper Mini</a></span><br>
+                                                                                            Wired Gaming Mouse
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="50%" style="padding-bottom: 15px;">
+                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr valign="middle" class="shop-item">
+                                                                                        <td width="90px" height="90px" class="img-item" valign="middle" style="border: 1px solid #007FC0; text-align: center;">
+                                                                                            <a href="#"><img src="img/img_05.jpg" style="max-width: 100%; vertical-align: middle;" alt="image" class="g-img" ></a>
+                                                                                        </td>
+                                                                                        <td style="padding: 0 3px 0 12px; line-height: 26px; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif;" class="text-item">
+                                                                                            <span><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Logitech G432</a></span><br>
+                                                                                            Gaming Headset
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr valign="middle">
+                                                                        <td width="50%" style="padding-bottom: 15px;">
+                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr valign="middle" class="shop-item">
+                                                                                        <td width="90px" height="90px" class="img-item" valign="middle" style="border: 1px solid #007FC0; text-align: center;">
+                                                                                            <a href="#"><img src="img/img_04.jpg" style="max-width: 100%; vertical-align: middle;" alt="image" class="g-img" ></a>
+                                                                                        </td>
+                                                                                        <td style="padding: 0 3px 0 12px; line-height: 26px; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif;" class="text-item">
+                                                                                            <span><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Razer Viper Mini</a></span><br>
+                                                                                            Wired Gaming Mouse
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width="50%" style="padding-bottom: 15px;">
+                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr valign="middle" class="shop-item">
+                                                                                        <td width="90px" height="90px" class="img-item" valign="middle" style="border: 1px solid #007FC0; text-align: center;">
+                                                                                            <a href="#"><img src="img/img_05.jpg" style="max-width: 100%; vertical-align: middle;" alt="image" class="g-img" ></a>
+                                                                                        </td>
+                                                                                        <td style="padding: 0 3px 0 12px; line-height: 26px; font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif;" class="text-item">
+                                                                                            <span><a href="#" style="color:#333333; text-decoration: none; font-weight: bold; color: #333; border-bottom: 1px solid #007FC0;">Logitech G432</a></span><br>
+                                                                                            Gaming Headset
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="border: 1px solid #ffe6c3; padding: 18px;" class="border-block">
+                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                <tbody>
+                                                                    <tr valign="middle">
+                                                                        <td style="text-align: center; padding: 5px 0 0;" height="30px;" class="subtitle subtitlenobg">
+                                                                            <h2 style="margin: 0 25px 0 5px; padding: 0 10px; vertical-align: middle; color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif; display: inline;"><img src="img/musings.png" style="vertical-align: middle;" alt="MAIL & MUSINGS" class="g-img">&nbsp;<span style="vertical-align: middle; margin-left: 4px;">MAIL & MUSINGS</span></h2>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding: 0 10px;">
+                                                                            <p style="font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif; line-height: 22px; margin-bottom: 10px;">What you believe will be the most difficult task for future satellites. And, to the majority, space pollution is the most crucial challenge.</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="answer-block">
+                                                                            <table style="width:100%; font-size: 12px; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td width="50%" style="padding: 7px 10px;">
+                                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                                <tbody>
+                                                                                                    <tr valign="middle">
+                                                                                                        <td style="border-radius: 8px; text-align: center; padding: 3px; height: 50px;border: solid 1px #dcdfe5;"><a href="#" style="color:#333;display: inline-block; text-decoration: none;  padding: 2px 7px;">Space pollution is the most crucial for sure.</a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                        <td width="50%" style="padding: 7px 10px;">
+                                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                                <tbody>
+                                                                                                    <tr valign="middle">
+                                                                                                        <td style="border-radius: 8px; text-align: center; padding: 3px; height: 50px;border: solid 1px #dcdfe5;"><a href="#" style="color:#333;display: inline-block; text-decoration: none;  padding: 2px 7px;">Space tugs being used as weapons can’t end well.</a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="50%" style="padding: 7px 10px;">
+                                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                                <tbody>
+                                                                                                    <tr valign="middle">
+                                                                                                        <td style="border-radius: 8px; text-align: center; padding: 3px; height: 50px;border: solid 1px #dcdfe5;"><a href="#" style="color:#333;display: inline-block; text-decoration: none;  padding: 2px 7px;">Space pollution is the most crucial for sure.</a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                        <td width="50%" style="padding: 7px 10px;">
+                                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                                <tbody>
+                                                                                                    <tr valign="middle">
+                                                                                                        <td style="border-radius: 8px; text-align: center; padding: 3px; height: 50px;border: solid 1px #dcdfe5;"><a href="#" style="color:#333;display: inline-block; text-decoration: none;  padding: 2px 7px;">Space tugs being used as weapons can’t end well.</a>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style=" padding: 10px 10px 0;" class="subtitle subtitlenobg">
+                                                                            <h2 style="margin: 0 25px 0 5px; text-align: center; padding: 0 10px;color: #0180C1; font-size: 20px; font-style: italic; font-family: 'Roboto', sans-serif;">YESTERDAY'S RESULTS</h2>
+                                                                            <p style="font-size: 16px; font-family: Georgia, 'Times New Roman', Times, serif; line-height: 22px; margin-bottom: 10px;">Yesterday, we noted that Elon Musk recently announced that he'd be sending the first human to Mars in 5 months.<br>If you had a chance to go on the first trip to Mars?</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding: 0 10px 8px;">
+                                                                            <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                <tbody>
+                                                                                    <tr valign="middle">
+                                                                                        <td width="36px" valign="middle" style="border: 1px solid #D0D5DD; border-radius: 5px 0 0 5px; padding: 13px 5px 13px 12px; color: #007FC0; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: bold; ">47%</td>
+                                                                                        <td style="padding: 13px 15px; font-size: 12px; border: 1px solid #D0D5DD; border-radius: 0 5px 5px 0; border-left: 0px; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">Yes, I would go.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding: 0 10px 8px;">
+                                                                            <div style="border: 1px solid #D0D5DD; border-radius: 5px;">
+                                                                                <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                    <tbody>
+                                                                                        <tr valign="middle">
+                                                                                            <td width="36px" valign="middle" style="border: 1px solid #D0D5DD; border-radius: 5px 0 0 5px; padding: 13px 5px 13px 12px; color: #007FC0; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: bold; ">47%</td>
+                                                                                            <td style="padding: 13px 15px; font-size: 12px; border: 1px solid #D0D5DD; border-radius: 0 5px 5px 0; border-left: 0 ; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">Yes, I would go.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="padding: 0 10px 8px;">
+                                                                            <div style="border: 1px solid #D0D5DD; border-radius: 5px;">
+                                                                                <table style="width:100%;" cellspacing="0" cellpadding="0" border="0">
+                                                                                    <tbody>
+                                                                                        <tr valign="middle">
+                                                                                            <td width="36px" valign="middle" style="border: 1px solid #D0D5DD; border-radius: 5px 0 0 5px; padding: 13px 5px 13px 12px; color: #007FC0; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: bold; ">47%</td>
+                                                                                            <td style="padding: 13px 15px; font-size: 12px; border: 1px solid #D0D5DD; border-radius: 0 5px 5px 0; border-left: 0 ; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">Yes, I would go.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="freetext">
+                        <table style="margin: auto;max-width:600px;" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td style="background-color:#16192C;" class="footer">
+                                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width:600px;width:100%!important;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 12px;font-style: normal;font-weight: 400;text-align: left;color:#fff;">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="left" style="padding: 35px 50px 15px;line-height: 10px;">
+                                                        <p>Prepared by Derya Ozdemir and Brad Bergan.</p>
+                                                        <p>Enjoy Reading? Forward this email to a friend.</p>
+                                                        <p>Was this email forwarded to you? <a href="#" class="custom-underline" style="color:#fff; text-decoration: none; border-bottom: 1px solid #FF9900;font-weight:700;">Join Free!</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:0 50px 28px;">
+                                                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border-bottom:1px solid #fff;"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="padding: 1px 50px 15px; font-size: 16px; font-family: Helvetica, sans-serif; white-space: nowrap;">
+                                                        <a style="color:#fff;text-decoration: none;font-weight:700;" href="#">About US</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a style="color:#fff;text-decoration: none;font-weight:700;" href="#">Advertise</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <a style="color:#fff;text-decoration: none;font-weight:700;" href="#">Contact Us</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="padding: 1px 50px;">
+                                                        <a style="text-decoration: none;padding-right:4px;" href="#"><img src="img/facebook_w.png" alt="Facebook" width="16" height="16" style="display:inline-block;width:16px;height:16px;" class="g-img"></a>&nbsp;
+                                                        <a style="text-decoration: none;padding-right:4px;" href="#"><img src="img/instagram_w.png" alt="Instagram" width="16" height="16" style="display:inline-block;width:16px;height:16px;" class="g-img"></a>&nbsp;
+                                                        <a style="text-decoration: none;padding-right:4px;" href="#"><img src="img/youtube_w.png" alt="Youtube" width="16" height="16" style="display:inline-block;width:16px;height:16px;" class="g-img"></a>&nbsp;
+                                                        <a style="text-decoration: none;padding-right:4px;" href="#"><img src="img/twitter_w.png" alt="Twitter" width="16" height="16" style="display:inline-block;width:16px;height:16px;" class="g-img"></a>&nbsp;
+                                                        <a style="text-decoration: none;padding-right:4px;" href="#"><img src="img/linkedin_w.png" alt="Linkedin" width="16" height="16" style="display:inline-block;width:16px;height:16px;" class="g-img"></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="left" style="padding: 0px 50px; font-size: 12px;">
+                                                        <p style="line-height:20px; margin-bottom: 15px;">You are receiving this email because you have subscribed to our newsletter.<br />Manage you e-mail preferences or unsubscribe <a href="#" class="custom-underline" style="color:#fff;border-bottom: 1px solid #FF9900;font-weight:700;text-decoration: none;">here</a>.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:0 50px 28px;">
+                                                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border-bottom:1px solid #fff;"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 0 50px 30px;">
+                                                        <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="width:100%!important; font-size: 11px;font-family: Helvetica, sans-serif;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="padding: 1px 0px 0px 0; line-height: 16px;"  width="100%;">
+                                                                        <img src="img/ie-logo.png" alt="Interesting Engineering" width="108" height="30" style="display: inline-block;width:108px;height:30px;float:right;margin: 0 0 5px 5px;" class="g-img">
+                                                                        <p style="margin:0 0 0px;">© Copyright 2021 | The Blueprint is by Interesting Engineering, Inc.</p>
+                                                                        <p style="margin:0 0 5px;">201 Spear Street, Suite 1100 San Francisco, CA 94105  | All Rights Reserved</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="line-height:10px;font-size:10px;">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
